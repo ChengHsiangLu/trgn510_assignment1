@@ -1,0 +1,136 @@
+    1  mkdir TRGN514
+    2  ls
+    3  cd TRGN514
+    4  ls
+    5  mkdir Activity_1
+    6  ls
+    7  passwd
+    8  exit
+    9  pwd
+   10  mkdir bin
+   11  mkdir scripts
+   12  mkdir projects
+   13  ls
+   14  pwd
+   15  ls
+   16  cd ..
+   17  ls
+   18  exit
+   19  echo $HOST
+   20  pwd
+   21  cd ~
+   22  pwd
+   23  ls
+   24  exit
+   25  pwd
+   26  ls
+   27  cd ..
+   28  pwd
+   29  ls
+   30  cd yutianl
+   31  cd ~
+   32  pwd
+   33  ls
+   34  ls -a
+   35  head .bashrc
+   36  less .bashrc
+   37  ls -l
+   38  pwd
+   39  ls
+   40  whereis ls
+   41  cd ~
+   42  pwd
+   43  history
+   44  history | head
+   45  history | grep ftp
+   46  prep cat
+   47  grep kitten
+   48  ls
+   49  cd TRGN514
+   50  ls
+   51  pwd
+   52  ls
+   53  cd Activity_1/
+   54  cd ~
+   55  pwd
+   56  cd TRGN514/
+   57  cd Activity_1/
+   58  vi
+   59  vi heartrates.txt
+   60  ls
+   61  exit
+   62  tree ~
+   63  exit
+   64  ls
+   65  ls -a
+   66  head .bashrc
+   67  less .bashrc
+   68  vim
+   69  vim .bashrc
+   70  ls - l
+   71  ls -l
+   72  who
+   73  ls
+   74  ls -l
+   75  pwd
+   76  cd ..
+   77  ls -l
+   78  pwd
+   79  cd ~
+   80  cd ..
+   81  ls -l
+   82  history
+   83  history | head
+   84  history | grep ftp
+   85  wc -l .bashrc
+   86  cd ~
+   87  wc -l .bashrc
+   88  history 
+   89  wget cnn.com
+   90  wget http://ftp.ensembl.org/pub/release-75/gtf/homo_sapiens/Homo_sapiens.GRCh37.75.gtf.gz
+   91  ls
+   92  whoami
+   93  hostname
+   94  mkdir assignments
+   95  ls
+   96  cd assignments/
+   97  pwd
+   98  git clone https://github.com/ChengHsiangLu/trgn510_assignment1.git
+   99  cd trgn510_assignment1/
+  100  ls
+  101  vim README.md 
+  102  git add . -A
+  103  git commit -m "First commit"
+  104  git push
+  105  ls
+  106  pwd
+  107  cd README.md 
+  108  open README.md 
+  109  pwd
+  110  git add . -A
+  111  git commit -m "First commit"
+  112  git config --global user.email "you@example.com"
+  113  git add . -A
+  114  git commit -m "First commit"
+  115  git config -- user.email "clu74108@usc.edu"
+  116  git config -- global user.email "clu74108@usc.edu"
+  117  git config --global user.email "clu74108@usc.edu"
+  118  git config --global user.name "ChengHsiangLu"
+  119  git add . -A
+  120  git commit -m "First commit"
+  121  git push
+  122  pwd
+  123  mkdir problem1
+  124  ls
+  125  history
+  126  cd problem1/
+  127  pwd
+  128  cd. > myhistory.txt
+  129  cd > myhistory.txt 
+  130  ls
+  131  cd assignments/
+  132  cd trgn510_assignment1/
+  133  ls
+  134  cd problem1/
+  135  ls
+  136  history > myhistory.problem1.txt
