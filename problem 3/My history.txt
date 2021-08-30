@@ -1,0 +1,406 @@
+    1  mkdir TRGN514
+    2  ls
+    3  cd TRGN514
+    4  ls
+    5  mkdir Activity_1
+    6  ls
+    7  passwd
+    8  exit
+    9  pwd
+   10  mkdir bin
+   11  mkdir scripts
+   12  mkdir projects
+   13  ls
+   14  pwd
+   15  ls
+   16  cd ..
+   17  ls
+   18  exit
+   19  echo $HOST
+   20  pwd
+   21  cd ~
+   22  pwd
+   23  ls
+   24  exit
+   25  pwd
+   26  ls
+   27  cd ..
+   28  pwd
+   29  ls
+   30  cd yutianl
+   31  cd ~
+   32  pwd
+   33  ls
+   34  ls -a
+   35  head .bashrc
+   36  less .bashrc
+   37  ls -l
+   38  pwd
+   39  ls
+   40  whereis ls
+   41  cd ~
+   42  pwd
+   43  history
+   44  history | head
+   45  history | grep ftp
+   46  prep cat
+   47  grep kitten
+   48  ls
+   49  cd TRGN514
+   50  ls
+   51  pwd
+   52  ls
+   53  cd Activity_1/
+   54  cd ~
+   55  pwd
+   56  cd TRGN514/
+   57  cd Activity_1/
+   58  vi
+   59  vi heartrates.txt
+   60  ls
+   61  exit
+   62  tree ~
+   63  exit
+   64  ls
+   65  ls -a
+   66  head .bashrc
+   67  less .bashrc
+   68  vim
+   69  vim .bashrc
+   70  ls - l
+   71  ls -l
+   72  who
+   73  ls
+   74  ls -l
+   75  pwd
+   76  cd ..
+   77  ls -l
+   78  pwd
+   79  cd ~
+   80  cd ..
+   81  ls -l
+   82  history
+   83  history | head
+   84  history | grep ftp
+   85  wc -l .bashrc
+   86  cd ~
+   87  wc -l .bashrc
+   88  history
+   89  wget cnn.com
+   90  wget http://ftp.ensembl.org/pub/release-75/gtf/homo_sapiens/Homo_sapiens.GRCh37.75.gtf.gz
+   91  ls
+   92  whoami
+   93  hostname
+   94  mkdir assignments
+   95  ls
+   96  cd assignments/
+   97  pwd
+   98  git clone https://github.com/ChengHsiangLu/trgn510_assignment1.git
+   99  cd trgn510_assignment1/
+  100  ls
+  101  vim README.md
+  102  git add . -A
+  103  git commit -m "First commit"
+  104  git push
+  105  ls
+  106  pwd
+  107  cd README.md
+  108  open README.md
+  109  pwd
+  110  git add . -A
+  111  git commit -m "First commit"
+  112  git config --global user.email "you@example.com"
+  113  git add . -A
+  114  git commit -m "First commit"
+  115  git config -- user.email "clu74108@usc.edu"
+  116  git config -- global user.email "clu74108@usc.edu"
+  117  git config --global user.email "clu74108@usc.edu"
+  118  git config --global user.name "ChengHsiangLu"
+  119  git add . -A
+  120  git commit -m "First commit"
+  121  git push
+  122  pwd
+  123  mkdir problem1
+  124  ls
+  125  history
+  126  cd problem1/
+  127  pwd
+  128  cd. > myhistory.txt
+  129  cd > myhistory.txt
+  130  ls
+  131  cd assignments/
+  132  cd trgn510_assignment1/
+  133  ls
+  134  cd problem1/
+  135  ls
+  136  history > myhistory.problem1.txt
+  137  head -n 5
+  138  head -n 5 myhistory.problem1.txt
+  139  cd ..
+  140  ls
+  141  pwd
+  142  cp /data/bashrc ~/assignments/trgn_assignment1/problem2/
+  143  mkdir problem2
+  144  ls
+  145  cp /data/bashrc ~/assignments/trgn_assignment1/problem2/
+  146  pwd
+  147  scp /data/bashrc ~/assignments/trgn_assignment1/problem2/
+  148  cp /data/bashrc_sample ~/assignments/trgn_assignment1/problem2/.
+  149  ls
+  150  cd problem2
+  151  pwd
+  152  cp /data/bashrc_sample /home/clu74108/assignments/trgn510_assignment1/problem2
+  153  ls
+  154  cd /home/clu74108/assignments/trgn510_assignment1/problem2
+  155  pwd
+  156  ls
+  157  vim
+  158  vim bashrc_sample
+  159  source /home/clu74108/assignments/trgn510_assignment1/problem2/bashrc_sample
+  160  cp /home/clu74108/assignments/trgn510_assignment1/problem2/bashrc_sample /home/clu74108/assignments/trgn510_assignment1/problem2/bashrc_sample/.bashrc
+  161  cp ~/assignments/trgn_assignment1/problem2/bashrc_sample ~/.bashrc
+  162  cd ~
+  163  ls -a
+  164  cd .bashrc
+  165  pwd
+  166  cd problem2
+  167  cd /home/clu74108/assignments/trgn510_assignment1/problem2/bashrc_sample
+  168  cd ~
+  169  pwd
+  170  cd assignments/trgn510_assignment1/problem2
+  171  cp /home/clu74108/assignments/trgn510_assignment1/problem2/bashrc_sample /home/clu74108/.bashrc
+  172  cp /home/data/vimrc /home/clu74108/assignments/trgn510_assignment1/problem2/
+  173  ls
+  174  vim vimrc
+  175  vim bashrc_sample
+  176  cp /home/clu74108/assignments/trgn510_assignment1/problem2/vimrc /home/clu74108/assignments/trgn510_assignment1/problem2/.vimrc
+  177  ls
+  178  ls -a
+  179  vi .vimrc
+  180  cd ~
+  181  pwd
+  182  cd /home//clu74108/assignments/trgn510_assignment1/
+  183  pwd
+  184  mkdir problem3
+  185  ls
+  186  cd problem3
+  187  ls
+  188  rm problem3
+  189  cd ..
+  190  rm problem3
+  191  rmdir problem3
+  192  ls
+  193  mkdir problem 3
+  194  ls -l
+  195  rmdir problem 3
+  196  ls
+  197  mkdir problem\3
+  198  ls -l
+  199  rmdir problem3
+  200  ls
+  201  mkdir problem\ 3
+  202  ls -l
+  203  pwd
+  204  mkdir problem4
+  205  ls
+  206  top
+  207  ps -ef | grep $USER
+  208  cd problem4
+  209  ls
+  210  vim myprocesses.txt
+  211  ls
+  212  echo "# My processes" > header.txt
+  213  ls
+  214  cat header.txt > myprocesses.header.txt
+  215  ls
+  216  vim myprocesses.header.txt
+  217  pwd
+  218  cd ~
+  219  pwd
+  220  cd /home/clu74108/assignments/trgn510_assignment1/
+  221  ls
+  222  mkdir problem5
+  223  ls
+  224  cd problem5
+  225  pwd
+  226  wget ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_29/gencode.v29.basic.annotation.gtf.gz
+  227  ls
+  228  ls -l
+  229  pwd
+  230  cd /home/clu74108/assignments/trgn510_assignment1/problem5
+  231  pwd
+  232  ls
+  233  md5sum gencode.v29.basic.annotation.gtf.gz
+  234  gunzip gencode.v29.basic.annotation.gtf.gz
+  235  ls -l
+  236  head gencode.v29.basic.annotation.gtf
+  237  wc -l  gencode.v29.basic.annotation.gtf`
+  238  wc -l  gencode.v29.basic.annotation.gtf
+  239  grep " gene " gencode.v29.basic.annotation.gtf | wc -l
+  240  grep "	gene	 " gencode.v29.basic.annotation.gtf | wc -l
+  241  grep " gene " gencode.v29.basic.annotation.gtf | wc -l
+  242  grep "	gene	"gencode.v29.basic.annotation.gtf | wc -l
+  243  grep "	gene_name	"gencode.v29.basic.annotation.gtf | wc -l
+  244  grep "gene"gencode.v29.basic.annotation.gtf | wc -l
+  245  grep "	gene	"gencode.v29.basic.annotation.gtf | wc -l
+  246  grep 	gene	gencode.v29.basic.annotation.gtf | wc -l
+  247
+  248  grep " gene " gencode.v29.basic.annotation.gtf | wc -l
+  249  grep	 "	 gene	" gencode.v29.basic.annotation.gtf | wc -l
+  250  grep	"	gene	"gencode.v29.basic.annotation.gtf | wc -l
+  251  grep "	gene	" gencode.v29.basic.annotation.gtf | wc -l
+  252  pwd
+  253  cd /home/clu74108/assignments/trgn510_assignment1/problem5
+  254  grep "        gene    " gencode.v29.basic.annotation.gtf | wc -l
+  255  grep "	gene	" gencode.v29.basic.annotation.gtf | wc -l
+  256  grep "	gene	" gencode.v29.basic.annotation.gtf > genes.tmp.txt
+  257  ls
+  258  grep -oP 'gene_name "(.*?)"' genes.tmp.txt
+  259  head genes.tmp2.txt
+  260  ls
+  261  grep -oP 'gene_name "(.*?)"' genes.tmp2.txt
+  262  grep "	gene	" gencode.v29.basic.annotation.gtf > genes.tmp2.txt
+  263  ls
+  264  head genes.tmp2.txt
+  265  grep -oP 'gene_name "(.*?)"' genes.tmp2.txt
+  266  grep -oP 'gene_name "(.*?)"' genes.tmp2.txt > genes.tmp2.txt
+  267  ls
+  268  rmdir genes.tmp2.txt
+  269  rm genes.tmp2.txt
+  270  ls
+  271  grep -oP 'gene_name "(.*?)"' genes.tmp.txt
+  272  grep -oP 'gene_name "(.*?)"' genes.tmp.txt > genes.tmp2.txt
+  273  ls
+  274  head genes.tmp2.txt
+  275  vim genes.tmp2.txt
+  276  ls
+  277  vim genes.final.txt
+  278  head genes.final.txt
+  279  vi ~/assignments/trgn_assignment1/.gitignore
+  280  ls
+  281  vi ~/assignments/trgn_assignment1/.gitignore
+  282  git add . -A
+  283  git commit -m "Submitting"
+  284  git push
+  285  cd ~
+  286  ls -l
+  287  cd assignments/
+  288  ls
+  289  cd trgn510_assignment1/
+  290  ls
+  291  git add . -A
+  292  git commit -m "Submitting"
+  293  git push
+  294  ls
+  295  cd assignments/
+  296  ls
+  297  cd trgn510_assignment1/
+  298  ls
+  299  cd assignments/
+  300  pwd
+  301  cd trgn510_assignment1/
+  302  pwd
+  303  ls
+  304  vi /home/clu74108/assignments/trgn510_assignment1/.gitignore
+  305  git add . -A
+  306  git commit -m "Submitting"
+  307  git push
+  308  cd problem5
+  309  ls
+  310  pwd
+  311  vi /home/clu74108/assignments/trgn510_assignment1/problem5/gencode.v29.basic.annotation.gtf /.gitignore
+  312  cd ~
+  313  git add . -A
+  314  cd /home/clu74108/assignments/trgn510_assignment1
+  315  ls
+  316  git add . -A
+  317  git commit -m "Submitting"
+  318  git push
+  319  ls
+  320  cd problem5/
+  321  ls
+  322  vi gencode.v29.basic.annotation.gtf
+  323  cd ..
+  324  pwd
+  325  ls
+  326  git add . -A
+  327  git commit -m "Submitting"
+  328  git push
+  329  vi ~/assignments/trgn_assignment1/.gitignore
+  330  ls -l
+  331  cd problem5/
+  332  ls -l
+  333  pwd
+  334  vi /home/clu74108/assignments/trgn510_assignment1/.gitignore
+  335  cd ~
+  336  git add . -A
+  337  cd probelm5
+  338  cd /home/clu74108/assignments/trgn510_assignment1/problem5
+  339  git add . -A
+  340  git commit -m "Submitting"
+  341  git push
+  342  vim gencode.v29.basic.annotation.gtf
+  343  git add . -A
+  344  git commit -m "Submitting"
+  345  git push
+  346  vim gencode.v29.basic.annotation.gtf
+  347  git add . -A
+  348  git commit -m "Submitting"
+  349  git push
+  350  pwd
+  351  vi /home/clu74108/assignments/trgn510_assignment1/.gitignore
+  352  cd ..
+  353  git add . -A
+  354  git commit -m "Submitting"
+  355  git push
+  356  vi /home/clu74108/assignments/trgn510_assignment1/problem5/gencode.v29.basic.annotation.gtf/.gitignore
+  357  vi ~/assignments/trgn_assignment1/.gitignore
+  358  pwd
+  359  vi ~/assignments/trgn_assignment1/.gitignore
+  360  pwd
+  361  vi /home/clu74108/assignments/trgn510_assignment1/.gitignore
+  362  git add . -A
+  363  git commit -m "Submitting"
+  364  git push
+  365  cd problem5
+  366  ls -l
+  367  vi /home/clu74108/assignments/trgn510_assignment1/.gitignore
+  368  git add . -A
+  369  git commit -m "Submitting"
+  370  git push
+  371  vi /home/clu74108/assignments/trgn510_assignment1/problem5/gencode.v29.basic.annotation.gtf/.gitignore
+  372  pwd
+  373  vim /home/clu74108/assignments/trgn510_assignment1/.gitignore
+  374  git status
+  375  git reset HEAD~
+  376  git status
+  377  git push origin master
+  378  git push origin master -f
+  379  git push -f
+  380  git reset HEAD~
+  381  git status
+  382  git reset HEAD~
+  383  git log
+  384  git reset HEAD~
+  385  git status
+  386  git add ../.gitignore
+  387  git add -A
+  388  git status
+  389  cd ~
+  390  ls -l
+  391  cd assignments/
+  392  ls
+  393  cd trgn510_assignment1/
+  394  ls
+  395  cd problem5
+  396  git commit -m "Submitting"
+  397  git push -f
+  398  cd ~
+  399  cd problem\ 3
+  400  ls
+  401  cd assignments/
+  402  ls
+  403  cd trgn510_assignment1/
+  404  ls
+  405  cd problem\ 3
+  406  history
